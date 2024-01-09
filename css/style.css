@@ -10,7 +10,7 @@
 }
 
 .promo {
-    height: 800px;
+    min-height: 800px;
     background: url('../img/Firstscreen/background.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
@@ -116,7 +116,7 @@ text-align: center;
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
@@ -147,13 +147,12 @@ text-align: center;
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
@@ -169,4 +168,8 @@ text-align: center;
     line-height: 21px;
     font-weight: 300;
     color: #4a4a4a;
+}
+
+.optimization {
+    min-height: 550px;
 }
