@@ -276,5 +276,22 @@ margin: 0 auto;
     font-weight: 400;
     color: #252525;
     text-align: center;
+}
 
+.frstweb .frstweb_img {
+    display: inline-block;
+    position: relative;
+}
+
+.frstweb .frstweb_img .frstweb_imgs {
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frstweb .frstweb_img_centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
